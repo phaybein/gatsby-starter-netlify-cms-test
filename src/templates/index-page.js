@@ -5,6 +5,7 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import siteSettings from '../../site/settings/contact_info.json';
 
 export const IndexPageTemplate = ({
   image,
@@ -65,6 +66,12 @@ export const IndexPageTemplate = ({
       </div>
     </div>
     <section className="section section--gradient">
+        <div>
+          <h1>Phone</h1>
+          {
+            siteSettings.phone
+          }
+        </div>
       <div className="container">
         <div className="section">
           <div className="columns">
