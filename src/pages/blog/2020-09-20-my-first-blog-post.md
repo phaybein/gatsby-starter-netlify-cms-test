@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: My First Blog Post
+title: My First Blog Post 2
 date: 2020-09-20T02:21:46.847Z
 description: Meta data for the blog post
 featuredpost: true
